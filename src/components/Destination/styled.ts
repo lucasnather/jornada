@@ -92,4 +92,34 @@ export const ButtonDetails = styled.button`
     }
 `
 
+export const ContainerBrief = styled.section`
+    display: grid;
+    grid-template-columns: repeat(3, 317.33px);
+    gap: 24px;
+`
+
+export const ContainerBriefCard = styled.div`
+    display: flex;
+    gap: 16px;
+    background-color: ${({theme}) => theme.colors["primary-4"]};
+    padding: 12px 16px;
+
+    & img {
+        width: 56px;
+        height: 56px;
+    }
+
+    
+`
+
+export const BriefDescription = styled.p`
+    font-weight: 400;
+    line-height: 24px;
+`
+
+export const BriefName = styled.p`
+    font-weight: 500;
+    line-height: 24px;
+`
+
 

@@ -1,4 +1,4 @@
-import { ButtonDetails, ButtonFilter, City, ContainerDestination, ContainerDestinationCard, ContainerDestinationContent, ContainerForm, ContainerInput, ContainerMain, InputFilter, Price, Title } from "./styled";
+import { BriefDescription, BriefName, ButtonDetails, ButtonFilter, City, ContainerBrief, ContainerBriefCard, ContainerDestination, ContainerDestinationCard, ContainerDestinationContent, ContainerForm, ContainerInput, ContainerMain, InputFilter, Price, Title } from "./styled";
 import Deserto from '../../assets/deserto.png'
 import Thumb from '../../assets/thumbnail.png'
 
@@ -50,29 +50,29 @@ export function Destination() {
             <section>
                 <Title>Depoimentos</Title>
 
-                <div>
-                    <div>
+                <ContainerBrief>
+                    <ContainerBriefCard>
                         <img src={Thumb} alt="" />
                         <div>
-                            <p>A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.</p>
-                            <p>Lauro Matos</p>
+                            <BriefDescription>A Jornada foi uma das melhores agências de viagens que eu já exBriefDescriptionerimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.</BriefDescription>
+                            <BriefName>Lauro Matos</BriefName>
                         </div>
-                    </div>
-                    <div>
+                    </ContainerBriefCard>
+                    <ContainerBriefCard>
                         <img src={Thumb} alt="" />
                         <div>
-                            <p>Recomendo fortemente a agência de viagens Jornada. Eles oferecem um serviço personalizado e de alta qualidade que excedeu minhas expectativas em minha última viagem.</p>
-                            <p>Lauro Matos</p>
+                            <BriefDescription>Recomendo fortemente a agência de viagens Jornada. Eles oferecem um serviço BriefDescriptionersonalizado e de alta qualidade que excedeu minhas expectativas em minha última viagem.</BriefDescription>
+                            <BriefName>Lauro Matos</BriefName>
                         </div>
-                    </div>
-                    <div>
+                    </ContainerBriefCard>
+                    <ContainerBriefCard>
                         <img src={Thumb} alt="" />
                         <div>
-                            <p>Minha viagem com a Jornada foi incrível! Recomendo muito a agência para quem busca uma experiência emocionante e personalizada a partir das nossas necessidades.</p>
-                            <p>Lauro Matos</p>
+                            <BriefDescription>Minha viagem com a Jornada foi incrível! Recomendo muito a agência BriefDescriptionara quem busca uma experiência emocionante e personalizada a partir das nossas necessidades.</BriefDescription>
+                            <BriefName>Lauro Matos</BriefName>
                         </div>
-                    </div>
-                </div>
+                    </ContainerBriefCard>
+                </ContainerBrief>
             </section>
         </ContainerMain>
     )
