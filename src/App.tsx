@@ -5,6 +5,7 @@ import { GlobalCss } from "./global-css"
 import { Banner } from "./components/Banner"
 import { Destination } from "./components/Destination"
 import { BannerFooter } from "./components/BannerFooter"
+import { Footer } from "./components/Footer"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Banner />
         <Destination />
         <BannerFooter/>
+        <Footer />
         <GlobalCss/>
     </ThemeProvider>
   )
