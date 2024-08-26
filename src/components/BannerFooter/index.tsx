@@ -4,7 +4,7 @@ import { ContainerBanner } from './styled'
 export function BannerFooter() {
     return (
         <ContainerBanner>
-            <img src={BannerImage} alt="" />
+            <img src={BannerImage} alt="banner" />
         </ContainerBanner>
     )
 }
