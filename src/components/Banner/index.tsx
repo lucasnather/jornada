@@ -1,9 +1,10 @@
 import BannerImage from '../../assets/banner.png'
+import { ContainerBanner } from './styled'
 
 export function Banner() {
     return (
-        <section>
+        <ContainerBanner>
             <img src={BannerImage} alt="" />
-        </section>
+        </ContainerBanner>
     )
 }
