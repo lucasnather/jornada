@@ -8,3 +8,4 @@ export const ContainerBanner = styled.section`
         width: 100%;
     }
 `
+
